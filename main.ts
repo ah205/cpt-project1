@@ -5,7 +5,7 @@ function showCity (popsize: number) {
             pause(2000)
         }
         game.reset()
-    } else if (popsize <= 1000000 && popsize >= 500000) {
+    } else if (popsize < 1000000 && popsize >= 500000) {
         for (let index2 = 0; index2 <= Medium_City.length; index2++) {
             scene.setBackgroundImage(Medium_City[index2])
             pause(2000)
